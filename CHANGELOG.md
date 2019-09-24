@@ -2,10 +2,42 @@
 
 ## WIP
 
+### Added
+
+- Add `selSlides` option to Slider/Slideshow component
+
+### Fixed
+
+- Fix Slider throws error if initialized with no slides
+- Fix Slider/Slideshow crash in IE
+- Fix Slider/Slideshow drag no longer starts on input elements
+- Fix `isPlainObject` to work across iframes
+
+## 3.2.0 (September 5, 2019)
+
+### Added
+
+- Add column and row gutter to Grid component
+
+### Removed
+
+- Remove `@text-bold-font-weight` variable
+
+### Fixed
+
+- Fix countdown line-height on small devices
+
+## 3.1.9 (September 2, 2019)
+
+### Added
+
+- Add `last` utility function
+
 ### Fixed
 
 - Fix Slideshow invisible after switching tabs in Switcher
 - Fix lazy loading images in Img component in UC Browser
+- Fix opening Offcanvas/Modal through buttons
 
 ## 3.1.8 (August 29, 2019)
 
